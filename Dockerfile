@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM node:10-alpine
 
 ARG VERSION=0.58.1
 ENV PACKAGE hugo_${VERSION}_Linux-64bit.tar.gz
