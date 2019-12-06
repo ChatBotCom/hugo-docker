@@ -1,6 +1,6 @@
 FROM alpine:3.8
 
-ARG VERSION=0.53
+ARG VERSION=0.58.1
 ENV PACKAGE hugo_${VERSION}_Linux-64bit.tar.gz
 
 RUN apk update && apk add \
